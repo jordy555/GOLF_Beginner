@@ -19,14 +19,21 @@
       text-align: center;
     }
     a {
-      color: black;
+      color: ;
       text-decoration: none;
     }
     #active {
-      color: red;
+      color: ;
     }
     .saw {
       color: gray;
+    }
+    @media query(max-width:800px) {
+      display:
+    }
+    #grid{
+      display: grid;
+      gird-template-columns: 150px 1fr;
     }
   </style>
 </head>
@@ -37,9 +44,18 @@
 <!--
   <h1><a href="골프의 기초.html"><font color="blue">골프의 기초</font></a></h1>
 -->
+  <input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
+  ">
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+  ">
   <p>
     <img src="은아골프.jpg" width="32%"><br>
     <b>[사진=송은아 프로 제공]</b>
+    <div id="grid">
   </p>
   <ol class="center">
     <style>
